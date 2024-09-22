@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(to left, rgb(255, 239, 196), rgb(201, 200, 200));
+  }
+
+  h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;"
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .ul-none {
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 100px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: justify;
+  padding: 0px 0;
+}
+
+.header {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.aboutme {
+  grid-area: 2 / 1 / span 1 / span 1;
+  
+}
+
+.image {
+  grid-area: 2 / 2 / span 1 / span 2;
+  
+}
+
+.footercon {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+.footerweb {
+  grid-area: 3 / 2 / span 1 / span 2;
+}
+
+a.cb:hover {
+  color:navy ;
+}
+
+a.cb:active {
+  color: grey;
+  cursor: progress;
+}
+
+.fade-in {
+  animation: fade-in 1s;
+}
+@keyframes fade-in { 
+  0%{
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
+@keyframes fade-up {
+  0%{
+    opacity: 0;
+    transform: translatey(30px) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.fade-up {
+  animation: fade-up 1s;
+}
+
+.project {
+
+}
+
+.project a {
+  text-decoration: none;
+  background-color: rgb(170, 170, 170);
+  border: 1px solid;
+  padding: 3px 3px;
+  transition: all 1s;
+  
+}
+.project a:hover {
+  color: black;
+  background-color: #6e6e6e;
+  
+}

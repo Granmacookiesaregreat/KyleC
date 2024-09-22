@@ -1,0 +1,11 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+*{
+    background-color: white;
+}
+#img_sz {
+    width: 250px;
+    height: 250px;
+}
+
